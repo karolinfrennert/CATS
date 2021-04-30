@@ -1,12 +1,12 @@
-const BASE_URL = `https://cataas.com/cat/gif`
+const BASE_URL_PHOTO = `https://thatcopy.pw/catapi/rest/`
 
 export const getCat = async () => {
   try {
-    const response = await fetch(BASE_URL)
-    console.log(response)
-    return response.json
+    const response = await fetch(BASE_URL_PHOTO)
+    const data = await response.json()
+    return data
   } catch (error) {
-    console.log("wrong")
+    alert("Wrong")
   }
   return null
 }
