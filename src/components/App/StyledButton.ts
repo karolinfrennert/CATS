@@ -8,6 +8,6 @@ export const StyledButton = styled.button`
   transform: rotate(-40deg);
   border-radius: 50%;
   left: calc(50% - 50px);
-  margin-top: -150px;
+  margin-top: 50px;
   display: block;
 `
