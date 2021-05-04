@@ -6,7 +6,7 @@ export const getCat = async () => {
     const data = await response.json()
     return data
   } catch (error) {
-    alert("Wrong")
+    console.log("No picture")
   }
   return null
 }

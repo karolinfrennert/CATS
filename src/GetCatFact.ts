@@ -7,7 +7,7 @@ export const getCatFacts = async () => {
 
     return data
   } catch (error) {
-    alert("wrong")
+    console.log("no fact")
   }
   return null
 }
